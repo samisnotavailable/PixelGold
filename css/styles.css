@@ -1,0 +1,88 @@
+body {
+    height: 100%;
+    font-size: 1rem;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.body-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.title-font {
+    height: 100%;
+    font-size: 50px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+.log-font {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bgcolor {
+    background: #CDD9A0;
+}
+
+.container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.ninja-box {
+    flex: 3;
+}
+
+.scorebox {
+    color: #CDD9A0;
+}
+.scorebox input {
+    color: black;
+    font-weight: bold;
+}
+
+.tab {
+    overflow: hidden;
+}
+
+.tab button {
+    background-color: #CDD9A0;
+    float: left;
+    border: #CDD9A0;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.5s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: black;
+    color: #CDD9A0;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: black;
+    color: #CDD9A0;
+}
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    font-size: 12px;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
